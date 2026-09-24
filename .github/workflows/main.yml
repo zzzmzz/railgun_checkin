@@ -2,7 +2,7 @@ name: GLaDOS Daily Checkin
 
 on:
   schedule:
-    - cron: '30 16 * * *'          # 每天北京时间 0:30
+    - cron: '43 00 * * *'          # 每天北京时间 0:30
   workflow_dispatch:               # 支持手动触发
 
 # 设置全局环境变量，解决 Node.js 20 弃用警告
